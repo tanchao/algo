@@ -1,0 +1,234 @@
+***********************  front-end  ************************* zi hao
+/api/content
+==>{'content':"........"}
+
+$.get('/api/content', function(data) {
+    $("#parent > div").html(data);
+});
+
+
+
+/api/user/<user_id>
+@put
+def update(user): pass
+
+/api/user/new
+@post
+def new(user)
+
+/api/user/<user_id>
+@delete
+
+var A = B = {'value':0};
+function change(a, b){
+  a.value++;
+  console.log(a.value);// 1
+  v = b.value++;
+  console.log(b.value);// 2
+  b = {'value': v};
+  console.log(b);// {'value': 1}
+}
+change(A,B);
+console.log(A);// {'value': 2}
+console.log(B);// {'value': 2}
+
+var a="Hello World!"
+addSpace(a);//"H E L L O W O R L D !"
+
+def addSpace(a):
+    res = []
+    for char in a:
+        if char != ' ':
+            res.append(char.upper())
+            res.append(' ')
+    resStr = ''.join(res)
+    return resStr[:-1]
+
+
+***********************  back-end  ************************* zhang yinlin
+# decorator
+
+@timer
+def foo():
+    ...
+
+def timer():
+    start = time()
+    func()
+    end = time()
+    print 'exe time is:', end - start
+    timer.__name__ = func.__name__
+    return func
+
+
+#generator 生成器
+def gen_name():
+    yield x for x in range(10)
+    yield 'tan'
+    yield 'chao'
+    yield 'xx'
+
+g = gen_name()
+
+g
+type(g)
+<generator>
+
+g.next()
+'tan'
+
+g.next()
+'chao'
+
+
+x for x in range(10)
+
+
+l = ((x for x in range(10))
+
+# __new__ __init__
+class Person(object):
+    def __new__(self):
+        self.pname = 'initname'
+
+    def __init__(self, name, age, gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
+
+    @property
+    def pname():
+        return name
+
+
+p = Person()
+p.pname
+
+pn = Person.pname
+
+
+web.py
+
+public Class Singleton() {
+    private Singleton instance = null;
+
+    public Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+
+    private Singleton() {
+
+    }
+
+}
+
+stack queue
+
+stack: push/pop
+queue: in/out
+
+
+left_stack
+right_stack
+
+class Stack:
+    push(elem)/pop()/isEmpty()
+
+
+class Queue:
+    def __init__(self, ....)
+
+
+
+    def in(self, elem):
+        ...
+
+
+    def out(self):
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+A = 1,3,5,7,9,11
+"""
+
+# 7,9,11,1,3,5 || K 4,5
+# O(n) brute force
+# sorted array log(n)
+def find(A, k):
+    len_a = len(A)
+    if len_a == 0: return
+    if len_a == 1:
+        if k == A[0]: return 0
+        return -1
+    left, right = A[0], A[-1]
+    res = -1
+    while True:
+        mid = A[len_a/2]
+        if mid == k:
+            return mid
+        elif mid > k:
+            if k > left:
+                res = find(A[0:len_a/2], k)
+            else:
+                res = mid + find(A[len_a/2:], k)
+        else:  # mid < k
+            if k < right:
+                res = find(A[0:len_a/2], k)
+            else:
+                res = mid + find(A[len_a/2:], k)
+    return res
+
+
+Book_Info (static)
+
+Books
+    book_info (name, type, location, count)
+    book_status (aviable, rental out)
+
+Users
+    user_type (vip, user)
+
+User_Auth
+    vip: book_type; lend_period; debt;
+    user: ...
+
+Lending
+    book
+    user
+    time_info
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
