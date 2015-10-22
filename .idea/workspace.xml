@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db54272-8623-4eb8-bfb0-e25c231f2294" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codility/find_rotate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interviews/amazon/rota.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode/py/space_replace.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interviews/t1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interviews/t2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codility/vm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interviews/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/interviews/google/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interviews/t1.py" afterPath="$PROJECT_DIR$/interviews/google/t1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/interviews/t2.py" afterPath="$PROJECT_DIR$/interviews/google/t2.py" />
     </list>
     <ignored path="algo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +40,7 @@
         </entry>
       </file>
       <file leaf-file-name="t1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interviews/t1.py">
+        <entry file="file://$PROJECT_DIR$/interviews/google/t1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
               <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
@@ -53,7 +50,7 @@
         </entry>
       </file>
       <file leaf-file-name="t2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interviews/t2.py">
+        <entry file="file://$PROJECT_DIR$/interviews/google/t2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.30241936" vertical-offset="0" max-vertical-offset="1710">
               <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
@@ -231,6 +228,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interviews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="amazon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -276,6 +291,11 @@
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/interviews/google" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.shortest_repetition">
     <configuration default="false" name="shortest_repetition" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -855,7 +875,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interviews/t1.py">
+    <entry file="file://$PROJECT_DIR$/interviews/google/t1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
@@ -863,7 +883,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interviews/t2.py">
+    <entry file="file://$PROJECT_DIR$/interviews/google/t2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30241936" vertical-offset="0" max-vertical-offset="1710">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
