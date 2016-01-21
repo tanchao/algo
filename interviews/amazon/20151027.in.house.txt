@@ -1,0 +1,296 @@
+web.py
+
+Python File Logical
+re.replace('key', 'value')
+FXO: (file1, conf1, ...)
+    dev01
+        hostname: gbs00500
+        port: 1099
+        ...
+    uat01
+        hostname: gbs00502
+        port: 1098
+
+NFOS: (file1, conf2, ...)
+    dev01
+        hostname: nbs00500
+        port: 1299
+nfos usa
+BFOS
+XFOS
+
+XML
+<conf_hostname>500</>
+<cfg_hostname>500</>
+
+
+JSON CONFIG
+re.replace(get_key('param'), get_value('param'))
+hostname:
+    file1, conf1,
+    FXO
+    gbs00500
+
+param:
+    pattern  (cfg_hostname)
+    key
+    value
+
+
+Airport Management System
+
+Airport : flight_space, route_in, route_out (100*3, 1*2, 1*2)
+            big, small    gap
+            main_route (minor gap) , second_route()
+
+Airplane : In_Planes, Out_Plance, Stay_Planes
+               Queue
+
+Users : Admin, Controller, Others
+
+1. plane.request.onboard -> controller
+2. controller (Y/N) -> yes -> plane
+3. plane.in.airport
+4. plane.out.airport
+2. controller (Y/N) -> yes -> plane
+
+class Plane:
+    def request():
+        """ in/out """
+        pass
+
+    def response():
+        """ yes/no """
+        action()
+
+    def action()
+        onboard()
+        flight()
+
+class Airport:
+    def __init__():
+        self.cur_planes = 0
+        self.capacity = 100
+        self.in_queue = []
+        self.out_queue = []
+        in_queue_pool()  # load balance
+        self.cache  # max = capacity + cache
+
+    def plane_request_listener():
+        p_in_req()
+        p_out_req()
+
+
+    def p_in_req(P):
+        """ FIFO """
+        self.in_queue.append(P)
+
+
+    def airport_controller():  # core controller
+        while True:
+            time.sleep(1)
+            if in_queue:
+                if self.cur_planes < self.capacity and is_ok_in():
+                    next_in_plane = in_queue.pop()
+                    next_in_plane.response('Y')  #
+
+
+class Users:
+    def operate(queue, plane):  # higher priorty
+        put_plane_first_in()  # queue insert in first
+        sl = []  # double list  insert&delete
+        sl.remove('a')  # o(n)
+
+
+normal cases
+edge case: capacity=max, cache=max (?handle in)
+stress case: plane_gap = min, continues from 0 to max
+             plane_gap = min, continues from 0 to max, continue in & out,
+
+system case:     1000hr
+                shutdown & restart
+                 disaster        '
+
+
+--------------------------------------------
+Murex  -- JAVA GUI APPLICATION
+Jemmy - Java GUI - button, textField  X,Y click
+
+Murex Scenario - SaveButton ("Save & Exit")
+NFOS/FXO/XFOS  - diff sys
+SPOT/OPTION/BOND    - diff product
+
+Open_Deal_Page()  change_Spot_Rate()
+spot: COL2 ROW3
+option: COL3 ROW4
+
+
+change_Spot_Rate() {
+    if product is spot:
+        .... spot_spot_page.change_rate()
+    if product is options:
+        ...
+
+}
+
+
+change_margin_Rate() {
+    if product is spot:
+        ....spot_spot_page.change_margin()
+    if product is options:
+        ...
+
+}
+change_Spot_Rate() {
+    if product is spot:
+        ....
+    if product is options:
+        ...
+
+}
+change_Spot_Rate() {
+    if product is spot:
+        ....
+    if product is options:
+        ...
+
+}
+
+login()
+open_deal()
+open_pnl()
+adjust_rate()
+exit_pnl()
+exit_deal()
+logout()
+
+MurexClass (login-out)
+NFOSClass (open_deal_exit) extends MurexClass
+SpotClass (Open_PNL_exit) extends NFOSClass
+SepcificClass extends SpotClass
+
+JQUERY.PROPERTY
+
+jQuery.proxy()
+-----
+
+Find the minimial value in a rotated sorted array
+0 1 2 2 3 4 5 6 7
+2 2 3 4 5 6 7 0 1
+1 2 2 3 4 5 6 7 0
+
+def find_min_2(A):
+    if not A: return None
+    if len(A) == 1: return A[0]
+    for i in xrange(len(A) - 1):  # 0 -> n - 2
+        j = i + 1
+        if A[j] - A[i] < 0:
+            return A[j]
+    return A[0]
+
+
+def find_min(A):
+    if not A: return None
+    if len(A) == 1: return A[0]
+    left, right = 0, len(A) - 1
+    while left < right and A[left] >= A[right]:
+        mid = left + (right - left) / 2
+        if A[mid] < A[right]:
+            right = mid
+        elif A[mid] > A[left]:
+            left = mid + 1
+        else:
+            left += 1
+    return A[left]
+
+
+if __name__ == '__main__':
+    print find_min([3,4,5,6,7,0,1,2])
+    print find_min([])
+    print find_min([3])
+    print find_min([3,4,1,2])
+    print find_min([3,1,2])
+    print find_min([3,3,3,3,2])
+    print find_min([3,4,1,2,2,2,2,2,2,2])
+    print find_min([3,2,2,2,2,2])
+    print find_min([1,1,1,1,1,1,1,1,1,2,2,2,2,2])
+
+
+tanchao@~/Documents/projects/algo/interviews/amazon\> python rotate_min.py
+0
+None
+3
+1
+1
+2
+1
+2
+1
+tanchao@~/Documents/projects/algo/interviews/amazon\>
+
+
+
+
+>>> a = 1
+>>> a = 100000000000000
+>>> a
+100000000000000
+>>>
+--------------------------------------------
+
+Given two seperate web access log files, say from Apache or some similar web server. The first log file is from day 1, the second one is from day 2. The web site is set up in such a way that every access logged will contain a unique identifier for that customer somewhere in the request line. The website is a fairly high traffic, so these log files are very large.
+Question - How can you find a unique list of customers who visited on day 1 and then came back for a visit on day 2?
+
+[req cus_id date time]
+
+12345678GHJK
+02345671
+
+256 log (ascii)
+1.LOG
+2.LOG
+A.LOG
+
+cus_id -> 00011
+
+
+
+def divide(s):
+    hash_id = hash(s)
+    CATEGORY = 256
+    c_id = hash_id % 256
+
+
+
+>>> hash(1)
+1
+>>> hash('a')
+12416037344
+>>> hash('a')
+12416037344
+>>> hash('ab')
+12416074593111939
+
+
+
+
+root - 1 - 2 - 4 ...
+     - 0 - 2 - 3 ...
+
+log
+
+day1.log -> 1GB * 100 -> cus[1-100].day1.txt
+vim 0:10000 -> 1.log
+
+day1.1.log - 100.log
+day2.1.log - 100.log
+
+day1.1 * day2.1-100 -> 1.1.2.ids
+...
+1.100.2.ids
+
+day1.1 & day2.1 - day1.2 & day2.2 - ... (100)
+in_day1_day2, in_day1_not_in_day2, in_day2_not_in_day1
+1&2 - 3&4
+in_day1_day2, in_day1_not_in_day2, in_day2_not_in_day1
+

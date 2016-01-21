@@ -1,0 +1,69 @@
+Rakuten Tokyo, Operations Engineer (Big Data Department / Data Insight Group)
+Description
+
+Position Summary:
+Rakuten has more than 250 million active users worldwide and provides some of the most popular Internet and E-Commerce
+services in Japan today. Our Big Data platform captures and generates Terabytes of data every day. This data needs to
+be streamed, processed, curated and accessed by hundreds of services and business people.
+We are looking for excellent Operations Engineers who have the passion and competence to solve technical challenges,
+deploy and maintain complex, scalable, distributed and reliable data storage and processing systems.
+
+Responsibilities:
+・Work together with data scientists and software engineers by complementing them with your extensive operational
+expertise
+・Help design, implement, test, deploy and maintain complex back-end systems
+・Help integrating and scaling-out our in-house as well as third party data processing systems
+Qualifications
+
+Minimum Qualifications:
+・ BS degree or equivalent knowledge in Computer Science, Mathematics, Physics, Actuarial Science or related technical
+discipline
+・ Experience wite managing high performance mission-critical applications on Unix/Linux/Solaris environments
+・ Good problem solving skills and an active interest in computers, system automation and operation.
+・ Good programming skills in at least two mainstream scritping programming language. Python and Bash preferreed
+・ Experience with at least three of the following technologies: Hadoop, Hive, Pig, Zookeeper, Cassandra, Spark, Kafka
+・ Good understanding of software and hardware performance as well as familiarity with the Linux kernel
+
+Preferred Qualifications:
+・ Extensive Python experience
+・ JavaScript/Node.js experience
+・ Java programming experience
+Language Level:
+・English: Business Level
+・Japanese: Not Required
+・Have TOEIC score over 800
+
+
+==============================================
+Hi Tan,
+
+As far as know, Big-data department is mostly non-Japanese and Japanese language is not required. That's why, they
+actively hired top talents from out of Japan.
+It is clear that you cannot speak Japanese language, so I don't think they will assign you for Japan market and any
+teams requiring Japanese language. I have several candidates from out of Japan without Japanese language joined in
+Rakuten but they don't use Japanese for work so far.
+
+Regarding English test, TOEIC is the most famous English certificate in Japan.
+TOEIC is used to measure English for daily life and business work while TOEFL is for academic study and needed to enter
+an university in English speaking countries.
+
+I believe you did College English Test (CET) in China.
+Do you have the score of CET-6? I believe your English is at high, at least above TOEIC 800 which is required by
+Rakuten. I think TOEIC 800 is for slightly limited business level. As far as my Taiwanese candidate who joined in
+Big-data department as Data Sicentist/software development engineer, he did not to have TOEIC score and also CET score
+though he could speak English smoothly (not at fluent but good enough to talk without interruption). Rakuten did not
+require him to take their own English test like TOEIC.
+
+If you are all right, I will proceed the application.
+I need to register your resume, name and email address into their system.
+
+Their hiring process is relatively slow.
+1. Resume screening is in approximately 2 weeks
+2. Answer to recorded video questions about your profile, skills and interest, online coding test
+3. 3-4 time Skype interview (1 weeks to get the result every interview)
+4. After signing get on the offer letter, they will star the visa application and takes 1-1.5 month to be approved
+officially and then you should join in the company immediately.
+
+Best regards,
+Taka
+==============================================

@@ -1,0 +1,69 @@
+first round is the video interview. There are 5 question,
+a. what's your name,
+why Rakuten ?
+b, what your technical background,
+c what's your greatest strength?
+d what's your career goal?
+and there is program test, if you apply for engineer, if you apply for researcher, there is two program test.
+You can search the program on the internet.
+
+
+But the java part was tricky as there were lot of boundary conditions <codility style>
+
+
+*** http://stackoverflow.com/questions/4549544/total-area-of-intersecting-rectangles
+*** http://www.geeksforgeeks.org/find-two-rectangles-overlap/
+http://articles.leetcode.com/2011/05/determine-if-two-rectangles-overlap.html
+
+
+Strength and weakness and where do you want to see yourself after 5 years?
+
+
+Codility interview question: (easy) find the standard deviation of an array.
+Skype interview: questions about previous projects I have done
+
+
+Coding test: given 2 rectangles described by their top-right and bottom-left coordinates,
+return the top-right and bottom-left coordinates of the intersection. Time limit is 1 hour.
+
+
+* Codility: Find the sum of the area of two possible overlapping rectangles.
+* Pre-recorded video questions: They will be given to you in advance, so you will be able to prepare.
+But basically, why rakuten, what can you bring to rakuten, your work and skills, etc. pretty standard stuff.
+
+
+1 round: programming test and interview on line (video-recording)
+2 round: interview with global marketing officer:
+Why do u choose to work in Japan /
+Why do u choose to Rakuten /
+Have u joined some project before? /
+Do u familiar with Web knowledge?
+3 round: interview with head officer Tell me about the connection between your research and your proposed position? /
+Writing different programming on the white board ...
+
+
+After applying through a careers website, I was asked to complete a coding test and a prerecorded video interview.
+The coding test was pretty easy; I had an hour to solve a given problem and test it.
+It was unsupervised. The prerecorded video interview was really easy since they gave me the questions ahead of time
+- why are you interested in the company,
+- what's your greatest strength, etc.
+Once I passed that step, they invited me to a Skype interview. I was told it was with engineers,
+so I assumed they would ask me to code or at least come up with a way to solve a problem, but they were more general
+knowledge questions
+- 'tell me about this thing on your resume',
+- 'have you ever done unit testing?', etc.
+Also things like 'tell us about a book you've read recently on a technical topic', which I was not at all prepared for.
+Also, there were three interviewers crowded around one screen, one of whom had a face mask on and none of whom
+I could understand clearly. It was not great, and I knew by the end I hadn't passed.
+
+
+The whole process is strictly time consuming. It takes almost 3 months. I applied for the new grad position
+(software engineer) on their official recruitment website. First you need to register an account and upload your
+resume to their recruitment website. One or more weeks later, you will receive their email to let you take the
+online programming test and pre-recored video interview. The programming test seems keep unchanged for many years.
+The questions of the pre-recored video interview has been written in the email. If you pass the first round screening,
+you will receive an email to let you take the second interview from their HR after one or two weeks. The interviewer is
+one of their engineers. No difficult technical problems. Most are the questions about your past experiences and behavior
+questions. After that, you will be required to take third interview. The interview can be conducted via Skype.
+The interviewer is also an engineer with higher position. Behavior questions. Final interview seems like a company
+culture introduction. No more questions. I am still waiting for the final result.
