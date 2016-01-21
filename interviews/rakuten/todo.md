@@ -1,7 +1,9 @@
 - **prerecord**
 
 1. Could we have your name and the reason why you are interested in Rakuten?
+
 > Hello Rakuten, my name is Tan Chao, you can call me Tan or TC as well, nice to meet you.
+
 > Rakuten's business is really good for people, closely served and changed people's life style; Rakuten has proved 
 its value in Japan, and now is expanding its value worldwide, I want to be part of that; Big-Data platform is a
 wonderland for engineer to make difference happen, this opportunity is quite attractive to me; Me and my family are 
