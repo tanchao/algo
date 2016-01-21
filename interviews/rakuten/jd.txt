@@ -34,6 +34,7 @@ Language Level:
 ・Have TOEIC score over 800
 
 
+
 ==============================================
 Hi Tan,
 
@@ -67,3 +68,47 @@ officially and then you should join in the company immediately.
 Best regards,
 Taka
 ==============================================
+Hi Tan,
+
+Rakuten Tokyo sent the invitation of the following A and B to your gmail.
+The deadline is not later than 9:00am, 28 January in Japan time.
+
+Please let me know which day you are going to finish it.
+
+The detail is below.
+---
+A: Recorded questions
+B: Codility, a programming test
+
+A. Recorded questions
+　- company introduction
+　- Start interviews *Please answer I'm English.
+1. Could we have your name and the reason why you are interested in Rakuten?
+2. Please tell us your technical background and how you will be able to contribute to the success of the company.
+If you already have work experience, please share that as well.
+3. What is your greatest strength and how you leverage your strength for peak performance? Please give us an example.
+4. *This question is for only those who have worked before* Have you ever changed your job? or are you trying to change
+your job? Please tell us why.
+5. What are your career goal and career plans? How does this job fit into your career plans?
+
+Duration: 20-30 minutes
+Deadline: not later than 9:00am on 28 January in Japan time
+
+Note:
+- please prepare a web camera and microphone
+- Please use a browser either Google Chrome, or Firefox. Any other browsers except IE7.
+- The interview will be finished after the screen with "Thank you for completing the interview!"
+- It is not needed to answer a questionnaire on the screen
+- It is fine to ware casual cloth
+
+B. Codility, a programming test
+Deadline: not later than 9:00am, 28 January in Japan time
+
+Note:
+- You can use either Google Chrome, Firefox3.5, IE9.0, Opera10.0, Safari5.0
+- Once clicking the URL and "BEGIN TEST NOW", you must complete the test. re-test is not accepted, so please be carful
+of the preparation.
+---
+
+Best regards,
+Taka
