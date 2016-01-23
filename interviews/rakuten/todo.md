@@ -1,6 +1,6 @@
 # TODOs
-- [] [0124] Re-phase answers with more objective and match-oriented
-- [] [0131] Read and prepare more about Big-Data platform: Hadoop (Lucene), Spark, Pig etc.
+- [] <0124> Re-phase answers with more objective and match-oriented
+- [] <0131> Read and prepare more about Big-Data platform: Hadoop (Lucene), Spark, Pig etc.
 
 # prerecord
 
