@@ -1,6 +1,6 @@
 # prerecord
 
-1. Could we have your name and the reason why you are interested in Rakuten?
+- Could we have your name and the reason why you are interested in Rakuten?
 
 > Hello Rakuten, my name is Tan Chao, call me Tan or TC as well, nice to meet you.
 
@@ -10,7 +10,7 @@ this value and I want to be part of it; About this position, Big-Data platform i
 make magic happen, which is also attractive to me; Also, me and my family are willing to explore different cultures, 
 Tokyo is definitely one of the most dynamic cities in Asia. With all these matches, I am here for Rakuten.
 
-2. Please tell us your technical background and how you will be able to contribute to the success of the company.
+- Please tell us your technical background and how you will be able to contribute to the success of the company.
 If you already have work experience, please share that as well.
 
 > I graduated from ECUST in 2008, top 20 in China, with a Bachelor degree on Computer Science and Finance Diploma, 2nd 
@@ -22,7 +22,7 @@ and code also some other business projects. From the job description and company
 and skills can help me adopt into the global team/environment very quickly, once I get into the organization, I can add 
 value to the team to the firm.
 
-3. What is your greatest strength and how you leverage your strength for peak performance? Please give us an example.
+- What is your greatest strength and how you leverage your strength for peak performance? Please give us an example.
 
 > Confidence! I believe in myself, for my smartness, my intelligence, which make me learn fast and grow fast. When I 
 joint HSBC about 4 yrs ago, I had to start with a new programming language - Python and a new working environment - 
@@ -31,7 +31,7 @@ project and practice, third read a lovely book with details, lastly combine my c
 MESA project from scratch within 3 months and became the Python lead in the team in 1 year. Right now this MESA tiny 
 framework is well recognized among the department, used by 3 systems on 3 sites, globally.
 
-4. *This question is for only those who have worked before* Have you ever changed your job? or are you trying to change
+- *This question is for only those who have worked before* Have you ever changed your job? or are you trying to change
 your job? Please tell us why.
 
 > Yes, I have been worked for 4 companies, I left the 1st one subjectively as I got the referral from my friend to a 
@@ -41,7 +41,7 @@ opportunities is I am trying to explore new challenges, right now our project an
 much chance or freedom to select the tech we want, not even for experiment. Plus HR contact me about this opportunity 
 which is sounds like a brand new world, that I definitely want to take the adventure.
 
-5. What are your career goal and career plans? How does this job fit into your career plans?
+- What are your career goal and career plans? How does this job fit into your career plans?
 
 > I want to be a tech guy till I am 50, 60 years old, I hope I can still stand on the cutting edge technologies. Rakuten
  has the gene to introduce trending new and efficient technologies into company, and willing to use these skills,
