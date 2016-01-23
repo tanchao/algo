@@ -13,8 +13,8 @@ Responsibilities:
 expertise
 ・Help design, implement, test, deploy and maintain complex back-end systems
 ・Help integrating and scaling-out our in-house as well as third party data processing systems
-Qualifications
 
+Qualifications
 Minimum Qualifications:
 ・ BS degree or equivalent knowledge in Computer Science, Mathematics, Physics, Actuarial Science or related technical
 discipline
@@ -23,12 +23,10 @@ discipline
 ・ Good programming skills in at least two mainstream scritping programming language. Python and Bash preferreed
 ・ Experience with at least three of the following technologies: Hadoop, Hive, Pig, Zookeeper, Cassandra, Spark, Kafka
 ・ Good understanding of software and hardware performance as well as familiarity with the Linux kernel
-
 Preferred Qualifications:
 ・ Extensive Python experience
 ・ JavaScript/Node.js experience
-・ Java programming experience
-Language Level:
+ nLanguage Level:
 ・English: Business Level
 ・Japanese: Not Required
 ・Have TOEIC score over 800
