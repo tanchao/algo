@@ -1,4 +1,4 @@
-- **prerecord**
+# prerecord
 
 1. Could we have your name and the reason why you are interested in Rakuten?
 
@@ -50,7 +50,7 @@ which is sounds like a brand new world, that I definitely want to take the adven
  Big-Data department need wheels like these as it is really big stuffs there. 
 
 
-- **behavior**
+# behavior
   - Why do u choose to work in Japan?
   - Why do u choose to Rakuten?
   - Have u joined some project before?
@@ -60,7 +60,7 @@ which is sounds like a brand new world, that I definitely want to take the adven
   - Tell us about a book you've read recently on a technical topic
   - What can you bring to Rakuten?
   
-- **technical**
+# technical
   - Codility warm up
   - Codility specific questions practice
     - rectangles intersection
