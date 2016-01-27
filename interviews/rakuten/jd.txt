@@ -18,15 +18,15 @@ Qualifications
 Minimum Qualifications:
 ・ BS degree or equivalent knowledge in Computer Science, Mathematics, Physics, Actuarial Science or related technical
 discipline
-・ Experience wite managing high performance mission-critical applications on Unix/Linux/Solaris environments
+・ Experience write managing high performance mission-critical applications on Unix/Linux/Solaris environments
 ・ Good problem solving skills and an active interest in computers, system automation and operation.
-・ Good programming skills in at least two mainstream scritping programming language. Python and Bash preferreed
+・ Good programming skills in at least two mainstream scripting programming language. Python and Bash preferred
 ・ Experience with at least three of the following technologies: Hadoop, Hive, Pig, Zookeeper, Cassandra, Spark, Kafka
 ・ Good understanding of software and hardware performance as well as familiarity with the Linux kernel
 Preferred Qualifications:
 ・ Extensive Python experience
 ・ JavaScript/Node.js experience
- nLanguage Level:
+Language Level:
 ・English: Business Level
 ・Japanese: Not Required
 ・Have TOEIC score over 800

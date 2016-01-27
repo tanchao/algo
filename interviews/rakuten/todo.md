@@ -94,8 +94,10 @@ the company. Thanks, thank you very much.
 - **experience**
   - [] grad process : http://www.1point3acres.com/bbs/thread-136818-1-1.html
     - [x] 1. 已知 a>0, b>0, a+b<10, 证明ab<25;
-    > (a+b)*(a+b)<10*10 => (a-b)(a-b)+4ab<100 => ab<25-(a-b)(a-b)
-    - [] 2. coding: implement rand7 by using rand5
+    ```
+    (a+b)*(a+b)<10*10 => (a-b)(a-b)+4ab<100 => ab<25-(a-b)(a-b)
+    ```
+    - [x] 2. coding: implement rand7 by using rand5
     ```
     def ran7():
         while True:
@@ -104,5 +106,52 @@ the company. Thanks, thank you very much.
                 return num % 7 + 1
     ```
     - [x] 3. izip and itertool in python; [itertool ref](http://www.cnblogs.com/cython/articles/2169009.html)
-    > from itertools import combinations, izip, imap, repeat 
+    ```
+    from itertools import combinations, izip, imap, repeat 
+    ```
+    - [x] 4. how to plot x=y in matlab;
+    ```
+    import numpy as np
+    import matplotlib.pyplot as plt
+    ```
+    - [x] 5.how to generate an integer array form 1 to 1000 in matlab;    
+    ```
+    ary = [x + 1 for x in xrange(1000)]
+    ```
+    - [x] 6. how to search all.txt file under the given directory in Linux;
+    ```
+    cd ~/projects/algo
+    ls -ltr interviews/rakuten/*.txt
+    find . -name '*.txt'
+    ```
+    - [x] 7.difference between git pull andgit fetch;
+    ```
+    git pull will automatically merge local branch;
+    git fetch will show merge status first, let user decide;
+    ```
+    - [x] 8. give at least one new feature for C++;
+    ```
+    Python 3.5: 
+    # a new matrix multiplication operator: a @ b .
+    # collections.OrderedDict is now implemented in C, which improves its performance between 4x to 100x times.
+    Python 3 VS Python 2:
+    # range(), !=, repr(), input() NOT xrange(), <>, ``, raw_input()
+    # print(""), not print ""
+    # int / int -> float, // -> int
+    Java 7:
+    Java 8:
+    // interface have default implementation
+    // function programming friendly
+    // lambda
+    Collections.sort(names, (String a, String b) -> {
+        return b.compareTo(a);
+    });
+    ```
+    - [] 9. what's map reduce;
+    - [] 10. tell me about your hadoop experience;
+    - [] 11. tell me about your java experience. 
+    - [] 12. can you overload constructor in C++, how about destructor?
+    - [] 13. tell me your experience in machine learning
+    - [] 14. reverse string, analyze time and space complexity;
+    - [] 15. find loop in a linked list, time complexity
     
