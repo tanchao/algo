@@ -73,16 +73,36 @@ the company. Thanks, thank you very much.
   - What can you bring to Rakuten?
   
 # technical
-  - Codility warm up
-  - Codility specific questions practice
-    - rectangles intersection
+  - [x] Codility warm up
+  - [x] Codility specific questions practice
+    - [x] rectangles intersection (refer to rec.inter.py)
+    - [x] complementary pairs (refer to complementary.pair.py)
   - Skills
     - Have you ever done unit testing?
     - Have you ever used or known Hadoop, Hive, Pig, Zookeeper, Cassandra, Spark, Kafka?
+      - Hadoop
+      - Lucene
+      - Spark
+      - Kafka
+      - RabbitMQ
+      - Chef
     - Have you worked on managing high performance mission-critical application? Multi-threading? Concurrency?
     - Code review tools, Java /Database related Qs  
-    - What data structure will you use to keep top 10 spender for your ecommerce site providing you can keep all records in memory?  
+    - What data structure will you use to keep top 10 spender for your e-commerce site providing you can keep all records in memory?  
     - Explain a few technical terms like markov chain, singleton, mvc, bloom filter, opportunistic lock, row-level locking  
     
 - **experience**
-  - grad process : http://www.1point3acres.com/bbs/thread-136818-1-1.html
+  - [] grad process : http://www.1point3acres.com/bbs/thread-136818-1-1.html
+    - [x] 1. 已知 a>0, b>0, a+b<10, 证明ab<25;
+    > (a+b)*(a+b)<10*10 => (a-b)(a-b)+4ab<100 => ab<25-(a-b)(a-b)
+    - [] 2. coding: implement rand7 by using rand5
+    ```
+    def ran7():
+        while True:
+            num = (rand5() - 1) * 5 + rand5() - 1
+            if 1 <= num <= 21:
+                return num % 7 + 1
+    ```
+    - [x] 3. izip and itertool in python; [itertool ref](http://www.cnblogs.com/cython/articles/2169009.html)
+    > from itertools import combinations, izip, imap, repeat 
+    
