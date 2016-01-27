@@ -1,3 +1,33 @@
+http://www.1point3acres.com/bbs/thread-136818-1-1.html
+职位在这里：http://global.rakuten.com/corp/careers/engineering/ug/
+网上投简历，第二天收到OA和Video Interview
+OA在codility上面写，1小时，可以用c/c++,java, python, ruby，自带test case也可以自己写test case.
+题目：给两个长方形4个顶点的坐标，计算重合部分的面积（intersection of tow rectangles）, stackoverflow上面有java写的solution，参考即可。
+Video Interview 是5个behavior 问题，每个有1分钟准备时间和5分钟回答时间， 建议事先写好提纲，边看边说。
+(1) Could we have your name and the reasonwhy you are interested in Rakuten?
+(2) Please tell us your technicalbackground and how you will be able to contribute to the success of thecompany.
+　　If you already have work experience,please share that as well.
+(3) What is your greatest strength and howyou leverage your strength for peak performance?Please give us an example.
+(4)This question is for only those whohave worked before
+　　Have you ever changed your job? or are you trying to change yourjob?Please tell us why.
+(5) What are your career goal and careerplans?
+　　How does this job fit into your career plans?
+注意：投简历的时候会要求选5个感兴趣的职位，OA和Video之后会根据简历和表现进行分组，我的首选是software engineer，次选是infrastructure engineer，最后分到了第三选项datascientist.
+不过后来发现面试的是big data department （glassdoor上面的review说是最好的2个department之一，另一个是smart device），反而觉得运气也挺不错。汇集各个国家的engineer，除了他们东京HQ，还有SF和Boston office.
+2周后通知skype interview,HR说整个hiring process一共有3轮skype interview. 负责面试的是东京HQ的engineer或者manager, 每一轮就高一级，按照senior engineer, group manager, department manager的顺序.
+skype interview 1: 面试官是一个白人和一个南美人，这一轮是technical. 先是面试官自我介绍，然后让我自我介绍；接着问简历上的project；然后进入technical question，最后让我提问。基本上technical question全是根据简历来问，涵盖了math, coding, programming language.
+面试题： 1. 已知 a>0, b>0, a+b<10, 证明ab<25; 2.coding: implement rand7 by using rand5 (写code的时候还有各种关于sampling,expected value的提问); 3. izip and itertool in python; 4. how to plot x=y in matlab; 5.how to generate an integer array form 1 to 1000 in matlab; 6. how to search all.txt file under the given directory in Linux; 7.difference between git pull andgit fetch; 8. give at least one new feature for C++11; give at least one newfeature for C99; 9. what's map reduce; 10. tell me about your hadoopexperience; 11. tell me about your java experience.
+整个面试过程很愉快，两个面试官也一直和蔼可亲的不断提示，最后问了一大堆问题他们也逐一详细回答。预定45分钟的面试最后进行了1个多小时，而且第二天就收到第二轮Skype interview的通知，这是面试体验最好的一次。
+Skype Interview 2:  这一轮是manager面试， behavior为主，面试官是一个日本太君。他的口音比想象的好多了，没有什么听不明白的，比起跟印度人面试的体验都好很多。上来也是先互相自我介绍，然后问简历和个人兴趣，最后让我提问。
+技术问题很少： 1. can you overload constructor in C++, how about destructor? 2.tell me your experience in java; 3. tell me your experience in machine learning
+behavior问题都是常见的： 1. whyrakuten; 2. what's your strength; 3. why I should hire you;  4. What is your impression of Japanese
+太君也很和蔼，整个面试过程很流畅， 2天后收到第三轮的通知。还有个小homework，给了本CEO的书，要写一个1000 char的essay （一个字母就是一个char, 空格标点也算，空行算2个）。
+Final Interview: 这一轮比较看脸，有人是走过场的公司文化介绍，有的人是真刀真枪的干，我比较不幸的遇到后者。面试官是个挪威大汉，早年是创业先驱，有22年工作经验。整个过程和第一轮一样，不过侧重聊经验。
+Technical: 1. tell me about your datascience experience; 2. tell me about your MS program; 3. tell me about yourbackground in Data Science; 4. reverse string, analyze time and spacecomplexity; 5. find loop in a linked list, time complexity
+Behavior: 1. Why Japan? 2. Work in US orJapan; 3. Why Rakuten; 4. Why Big Data Department
+这次的面试体验很差，是面试官迟到10分钟，而且北欧口音实在太可怕了让我第一次觉得听阿三口音是一件幸福的事情。而且面试官一直质疑我是EE出身，感觉他认为EE就是应该去搞硬件。
+1周后HR发来邮件约offer meeting, 希望是留在美国不是去Tokyo HQ.
+
 first round is the video interview. There are 5 question,
 a. what's your name,
 why Rakuten ?
