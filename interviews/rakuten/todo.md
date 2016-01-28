@@ -78,7 +78,20 @@ the company. Thanks, thank you very much.
     - [x] rectangles intersection (refer to rec.inter.py)
     - [x] complementary pairs (refer to complementary.pair.py)
   - Skills
-    - Have you ever done unit testing?
+    - [] Have you ever done unit testing? 
+    [unittest](http://toxic.leanote.com/post/unittest-Python%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E6%A1%86%E6%9E%B6)
+    ```
+    import unittest
+    from selenium import webdriver
+    
+    class TestTest(unittest.TestCase):
+        def setUp(self):
+            pass
+        def tearDown(self):
+            pass
+        def test_test(self):
+            pass
+    ```
     - Have you ever used or known Hadoop, Hive, Pig, Zookeeper, Cassandra, Spark, Kafka?
       - Hadoop
       - Lucene
@@ -147,11 +160,55 @@ the company. Thanks, thank you very much.
         return b.compareTo(a);
     });
     ```
-    - [] 9. what's map reduce;
+    - [x] 9. what's map reduce;
+    ```
+    MapReduce is a programming model and an associated implementation for processing and generating large data sets 
+    with a parallel, distributed algorithm on a cluster.
+    A MapReduce program is composed of a Map() procedure (method) that performs filtering and sorting (such as sorting 
+    students by first name into queues, one queue for each name) and a Reduce() method that performs a summary operation 
+    (such as counting the number of students in each queue, yielding name frequencies). The "MapReduce System" (also 
+    called "infrastructure" or "framework") orchestrates the processing by marshalling the distributed servers, running 
+    the various tasks in parallel, managing all communications and data transfers between the various parts of the 
+    system, and providing for redundancy and fault tolerance.
+    ```
     - [] 10. tell me about your hadoop experience;
-    - [] 11. tell me about your java experience. 
-    - [] 12. can you overload constructor in C++, how about destructor?
-    - [] 13. tell me your experience in machine learning
-    - [] 14. reverse string, analyze time and space complexity;
-    - [] 15. find loop in a linked list, time complexity
+    - [x] 11. tell me about your java experience.
+    ```
+    practiced with jdk 1.4-7
+    know sth. about Java 8
+    ```
+    - [] 12. tell me your experience in machine learning
+    - [x] 13. reverse string, analyze time and space complexity;
+    ```
+    A = [x + 1 for x in xrange(10)]
+    
+    A.reverse()
+    return A
+    
+    len_a = len(A)
+    if len_a > 1:
+        i, j = 0, len_a - 1
+        while i < j:
+            A[i], A[j] = A[j], A[i]
+            i ++
+            j --
+    return A
+            
+    len_a, B = len(A), []
+    for i in xrange(len_a - 1, -1, -1):
+        B.append(A[i])
+    return ''.join(B)
+    ```
+    - [x] 14. find loop in a linked list, time complexity
+    ```
+    slow, fast = node, node
+    while True:
+        if fast.next and fast.next.next:
+            fast = fast.next.next
+            slow = slow.next
+        else:
+            return False # fast reach tail
+        if slow == fast:
+            return True # there is loop
+    ```
     
