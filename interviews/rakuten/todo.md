@@ -105,7 +105,7 @@ the company. Thanks, thank you very much.
     - Explain a few technical terms like markov chain, singleton, mvc, bloom filter, opportunistic lock, row-level locking  
     
 - **experience**
-  - [] grad process : http://www.1point3acres.com/bbs/thread-136818-1-1.html
+  - [] [grad process](http://www.1point3acres.com/bbs/thread-136818-1-1.html)
     - [x] 1. 已知 a>0, b>0, a+b<10, 证明ab<25;
     ```
     (a+b)*(a+b)<10*10 => (a-b)(a-b)+4ab<100 => ab<25-(a-b)(a-b)
