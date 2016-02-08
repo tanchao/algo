@@ -2,6 +2,22 @@
 
 - [x] <0124> Re-phase answers with more objective and match-oriented
 - [] <0131> Read and prepare more about Big-Data platform: Hadoop (Lucene), Spark, Pig etc.
+- [] check TOEIC testing, as it mentioned need pass within 3 months, how frequently this exam take places, how many times
+I can take it within 3 months, any certification I need to take it.
+
+# first round Skype
+
+> Chris & Leo from Operation Engineering team
+
+- [] Do you know multi-threading? How do you use it in your project?
+- [] What keywords you used in multi-thread? How you write the function?
+- [] What multi-threading framework do you use? Why? How?
+- [] How to find the first 1000 prime numbers? how to optimise it?
+- [] Do you know sort algo? which one do you familiar with? for Quick-Sort, what's the worst time complexity?
+- [] how Quick-Sort implemented? how to find pivot index?
+- [] Do you know design patterns? which one do you familiar with? how to implement Singleton?
+- [] Do you know Java Garbage Collection? do you know parameters to do GC?
+- [] How to design a data structure to maintain a middle number? in each design, what's the insert & return complexity?
 
 # prerecord
 
@@ -190,8 +206,8 @@ the company. Thanks, thank you very much.
         i, j = 0, len_a - 1
         while i < j:
             A[i], A[j] = A[j], A[i]
-            i ++
-            j --
+            i += 1
+            j -= 1
     return A
             
     len_a, B = len(A), []
