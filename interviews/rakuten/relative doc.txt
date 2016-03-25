@@ -34,9 +34,12 @@ Skype Interview
 behavior问题都是常见的： 1. whyrakuten; 2. what's your strength; 3. why I should hire you;
 4. What is your impression of Japanese
 太君也很和蔼，整个面试过程很流畅， 2天后收到第三轮的通知。还有个小homework，给了本CEO的书，要写一个1000 char的essay （一个字母就是一个char, 空格标点也算，空行算2个）。
-Final Interview: 这一轮比较看脸，有人是走过场的公司文化介绍，有的人是真刀真枪的干，我比较不幸的遇到后者。面试官是个挪威大汉，早年是创业先驱，有22年工作经验。整个过程和第一轮一样，不过侧重聊经验。
-Technical: 1. tell me about your datascience experience; 2. tell me about your MS program; 3. tell me about yourbackground in Data Science; 4. reverse string, analyze time and spacecomplexity; 5. find loop in a linked list, time complexity
-Behavior: 1. Why Japan? 2. Work in US orJapan; 3. Why Rakuten; 4. Why Big Data Department
+
+Final Interview: 这一轮比较看脸，有人是走过场的公司文化介绍，有的人是真刀真枪的干，我比较不幸的遇到后者。面试官是个挪威大汉，早年是创业先驱，有22年工作经验。
+整个过程和第一轮一样，不过侧重聊经验。
+Technical: 1. tell me about your datascience experience; 2. tell me about your MS program; 3. tell me about your background in Data Science;
+4. reverse string, analyze time and spacecomplexity; 5. find loop in a linked list, time complexity
+Behavior: 1. Why Japan? 2. Work in US or Japan; 3. Why Rakuten; 4. Why Big Data Department
 这次的面试体验很差，是面试官迟到10分钟，而且北欧口音实在太可怕了让我第一次觉得听阿三口音是一件幸福的事情。而且面试官一直质疑我是EE出身，感觉他认为EE就是应该去搞硬件。
 1周后HR发来邮件约offer meeting, 希望是留在美国不是去Tokyo HQ.
 

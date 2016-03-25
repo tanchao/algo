@@ -18,6 +18,7 @@ I can take it within 3 months, any certification I need to take it.
 - [] Do you know design patterns? which one do you familiar with? how to implement Singleton?
 - [] Do you know Java Garbage Collection? do you know parameters to do GC?
 - [] How to design a data structure to maintain a middle number? in each design, what's the insert & return complexity?
+- [] unix how to check someone is editing a file
 
 # prerecord
 
@@ -40,7 +41,7 @@ SQL, hands on stored procedure and some basic db tuning, I am quite familiar wit
 I am interested in Open Source Software, like Node.js, Go-lang, also I practiced some Big-Data platform, such as Spark, Hadoop.
 I worked in finance and e-commence industry in last 7 years, located in SG/USA/HK for a while, 
 right now a Senior Software Engineer in HSBC GZ, I am responsible for leading a global dev team for internal platform design
-and code and also some other business projects. We used Python and JavaScript a lot, also we used GeneOS and Spark to monitor and 
+and code and also some other business projects. We used Python and JavaScript a lot, also we used GeneOS and Splunk to monitor and 
 invest our data. 
 From the job description and company's information, I believe my 
 experience and background can help me adopt into the Rakunten's global environment very quickly, once I get into the team, 
@@ -54,7 +55,7 @@ UNIX. However I managed to build the MESA project from scratch within 3 months. 
 well recognized among the department, used by 3 systems on 3 sites, globally.I had my way to pick up a technical skills 
 quickly, first an official start up tutor, second copy an example project and practice, third read a lovely book with 
 details, last not least combine my coding experience with it. In all I have confidence to take responsibilities and 
-make it successfully. Thank you.
+make it successful. Thank you.
 
 - [x] *This question is for only those who have worked before* Have you ever changed your job? or are you trying to change
 your job? Please tell us why.
@@ -80,12 +81,25 @@ the company. Thanks, thank you very much.
 
 # behavior
   - Why do u choose to work in Japan?
+  i have been worked in different nice and great cities, like SG/NY/SH/HK, which indicates me as an explorer, I love to
+  explore new culture and new world. Tokyo is one of the most dynamic cities in Asia or the world, Jason is also one of
+  the most special country to Chinese. I would like to live and work with it to know it.
+  
   - Why do u choose to Rakuten?
+  
+  
   - Have u joined some project before?
   - Do u familiar with Web knowledge?
   - What's your greatest strength? weakness?
+  confidence. not careful or detail enough, TDD and Agile.
+  
   - Tell me about something on your resume
+  
   - Tell us about a book you've read recently on a technical topic
+  Honestly, recently I learnt new technical skills on internet, via Coursera, iTunes University etc.
+  Go-Lang and Docker are the topics I like.
+  
+  
   - What can you bring to Rakuten?
   
 # technical
@@ -227,4 +241,34 @@ the company. Thanks, thank you very much.
         if slow == fast:
             return True # there is loop
     ```
+    
+- prep essay
+```
+5 gold rules
+===
+
+* Maximize Customer Satisfaction
+* Always Improve, Always Advance
+* Passionately Professional
+
+Focus on Customer Satisfication
+MESA example
+
+91 essential rules
+===
+
+Automation, automate everything
+
+* Why do people buy things?
+* Communication is the highest form of entertainment.
+* It’ s never too late
+* Think about things from someone else’s perspective
+* How to get things done ten times faster
+* Smaller units provide transparency
+* Study your entire life. Study everything
+* Study the best practices of the world
+
+If I have seen further it is by standing on the sholders of Giants.
+Dreams have meaning only when they are realized.
+```
     
