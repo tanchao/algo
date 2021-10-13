@@ -3,28 +3,15 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        if len(nums) <= 1: return
+        red, white, blue = 0, 0, len(nums) - 1
         
-        red, blue = 0, 2
-        cursor, red_index, blue_index = 0, 0, len(nums) - 1
-            
-        while cursor <= blue_index:
-            while nums[red_index] == red:
-                red_index += 1
-                if red_index >= blue_index: return
-            while nums[blue_index] == blue:
-                blue_index -= 1
-                if red_index >= blue_index: return
-            
-            if cursor < red_index: cursor = red_index
-                
-            if nums[cursor] == red:
-                nums[cursor] = nums[red_index] 
-                nums[red_index] = red
-                red_index += 1
-            elif nums[cursor] == blue:
-                nums[cursor] = nums[blue_index]
-                nums[blue_index] = blue
-                blue_index -= 1
-            else:
-                cursor += 1
+        while white <= blue:
+            if nums[white] == 0: # red
+                nums[red], nums[white] = nums[white], nums[red]
+                red += 1
+                white += 1
+            elif nums[white] == 1: # white
+                white += 1
+            else: # blue
+                nums[blue], nums[white] = nums[white], nums[blue]
+                blue -= 1
