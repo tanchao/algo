@@ -1,29 +1,23 @@
 # first revision by myself, not working, check discussion then
+import collections
+
+
 class Solution:
     def wordBreak(self, s: str, wordDict) -> bool:
-        return self.recursiveWordBreak(s, wordDict)
-    
-    # return True if word break completely; False if not
-    def recursiveWordBreak(self, s: str, wordDict) -> bool:
-        if len(s) == 0: 
-            return True # empty string
-        if len(wordDict) == 0:
-            return False # @todo: unexpected, assume False
-        
-        for word in wordDict:
-            if word in s:
-                curSubStrings, updatedS = [], s
-                subStrings = s.split(word) # would move word from current string
-                updatedS = updatedS.replace(word, '') # subtract word from string
-                for subString in subStrings:
-                    if len(subString) != 0:
-                        curSubStrings.append(subString)
-                        if self.recursiveWordBreak(subString, wordDict):
-                            curSubStrings.remove(subString) # break completely by word dict
-                if len(curSubStrings) == 0 and len(updatedS) == 0:
-                    return True      
+        queue, visited = collections.deque(), set()
+        queue.appendleft(0)
+        visited.add(0)
+        while len(queue) > 0:
+            curr = queue.pop()
+            for i in range(curr, len(s) + 1):
+                if i in visited: 
+                    continue
+                if s[curr:i] in wordDict:
+                    if i == len(s):
+                        return True
+                    queue.appendleft(i)
+                    visited.add(i)
         return False
-        
             
 solution = Solution()
 print(solution.wordBreak("cars", ["car","ca","rs"]))
