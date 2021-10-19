@@ -1,0 +1,29 @@
+# first revision by myself, not working, check discussion then
+class Solution:
+    def wordBreak(self, s: str, wordDict) -> bool:
+        return self.recursiveWordBreak(s, wordDict)
+    
+    # return True if word break completely; False if not
+    def recursiveWordBreak(self, s: str, wordDict) -> bool:
+        if len(s) == 0: 
+            return True # empty string
+        if len(wordDict) == 0:
+            return False # @todo: unexpected, assume False
+        
+        for word in wordDict:
+            if word in s:
+                curSubStrings, updatedS = [], s
+                subStrings = s.split(word) # would move word from current string
+                updatedS = updatedS.replace(word, '') # subtract word from string
+                for subString in subStrings:
+                    if len(subString) != 0:
+                        curSubStrings.append(subString)
+                        if self.recursiveWordBreak(subString, wordDict):
+                            curSubStrings.remove(subString) # break completely by word dict
+                if len(curSubStrings) == 0 and len(updatedS) == 0:
+                    return True      
+        return False
+        
+            
+solution = Solution()
+print(solution.wordBreak("cars", ["car","ca","rs"]))
