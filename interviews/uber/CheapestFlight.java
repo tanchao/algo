@@ -1,5 +1,4 @@
-package uber;
-
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -19,8 +18,49 @@ public class CheapestFlight {
 
         System.out.println("DFS result:" + cheapest);
         System.out.println("BFS result:" + bfs(flights, src, dst, k + 1));
-        System.out.println("Dijkstra result:" + dijkstra(flights, src, dst, k + 1));
+        System.out.println("Dijkstra result:" + dijkstra(flights, src, dst));
+        System.out.println("bfsLC result:" + bfsLC(flights, src, dst, n, k + 1));
         return cheapest == Integer.MAX_VALUE ? -1 : cheapest;
+    }
+
+    private static int bfsLC(int[][] flights, int src, int dst, int n, int k) {
+        Map<Integer, Set<int[]>> g = buildGraph(flights);
+
+        Queue<int[]> q = new PriorityQueue<int[]>((a, b) -> a[1] - b[1]);
+        q.offer(new int[]{src, 0, 0});
+        
+        int[] dist = new int[n];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[src] = 0;
+                
+        int res = Integer.MAX_VALUE;
+        while (!q.isEmpty()) {
+            int[] cur=q.poll();
+            int node=cur[0], cost=cur[1], stops=cur[2];
+            if (node==dst) return cost;
+            if (stops > k) break;
+            if (g.containsKey(node)) {
+                for (int[] next: g.get(node)) {
+                    int alt = cost + next[1];
+                    if (alt < dist[next[0]] && dist[node] != Integer.MAX_VALUE) {
+                        q.offer(new int[]{next[0], alt, stops + 1});
+                        dist[next[0]] = alt;
+                    }
+                }
+            }
+        }
+        return res == Integer.MAX_VALUE ? -1 : res;
+    }
+    
+    private static Map<Integer, Set<int[]>> buildGraph(int[][] flights) {
+        Map<Integer, Set<int[]>> map = new HashMap<>();
+        for (int[] f: flights) {
+            if (!map.containsKey(f[0])) {
+                map.put(f[0], new HashSet());
+            }
+            map.get(f[0]).add(new int[]{f[1], f[2]});
+        }
+        return map;
     }
 
     private static void dfsCheapest(int src, int dst, int stops, int cost) {
