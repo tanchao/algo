@@ -61,7 +61,6 @@ public class CardGame {
             if (c1[i] == c2[i]) c3[i] = c1[i];
             else c3[i] = 3 - c1[i] - c2[i];
         }
-        System.out.println(Arrays.toString(c3));
         return c3;
     }
 
@@ -84,7 +83,6 @@ public class CardGame {
     private boolean isTuple(int[] c1, int[] c2, int[] c3) {
         int i = -1;
         while (i++ < 3) {
-            System.out.println(i);
             if (c1[i] == c2[i] && c2[i] == c3[i]) continue;
             if (c1[i] != c2[i] && c2[i] != c3[i] && c1[i] != c3[i]) continue; // sum = 3?
             return false;
@@ -107,11 +105,11 @@ public class CardGame {
             {0,0,2,1},
             {0,1,2,1},
             {0,2,2,1},
-            //{0,2,1,1},
+            {0,2,1,1},
             {0,2,0,1}
         };
         CardGame cg = new CardGame();
-        cg.quickTest();
+        //cg.quickTest();
         System.out.println(cg.allCards(cards));
         System.out.println(cg.allCardsBrute(cards));
     }
